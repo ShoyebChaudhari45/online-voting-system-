@@ -7,7 +7,7 @@ $servername = "127.0.0.1";
 $username   = "root";
 $password   = "";
 $database   = "voting";
-$port       = 3307;
+$port       = 3306;
 
 mysqli_report(MYSQLI_REPORT_OFF);
 $conn = @mysqli_connect($servername, $username, $password, $database, $port);
